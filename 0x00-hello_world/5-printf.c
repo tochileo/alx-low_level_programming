@@ -1,43 +1,12 @@
-#include <stdio.h>                                                                                                                                     
+#include <stdio.h>
 
-                                                                                                                                                       
-
-/**                                                                                                                                                    
-
-* main - Entry point                                                                                                                                   
-
-*                                                                                                                                                      
-
-* Return: Always 0 (Success)                                                                                                                           
-
-*/                                                                                                                                                     
-
-int main(void)                                                                                                                                         
-
-{                                                                                                                                                      
-
-int a;                                                                                                                                                 
-
-long int b;                                                                                                                                            
-
-long long int c;                                                                                                                                       
-
-char d;                                                                                                                                                
-
-float f;                                                                                                                                               
-
-                                                                                                                                                       
-
-printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));                                                                                     
-
-printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));                                                                                     
-
-printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));                                                                                 
-
-printf("size of a long long int: %ln byte(s)\n", (unsigned long)sizeof(d));
-
-printf("size of a float: %in byte(s)\n", (unsigned long)sizeof(f));
-
+/**
+* main - Entry point
+* 
+* Return: Always 0 (Success)
+*/
+int main(void)
+{
+printf("with proper grammar, but the outcomeis a piece of art,\n");
 return (0);
-
 }
