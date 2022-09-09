@@ -1,14 +1,43 @@
-#include <stdio.h>
+#include <stdio.h>                                                                                                                                     
 
-/**
-* main - print the string in the put function
-* 
-* Description: using the main function
-* this program prints "Programming is like building a multilingual puzzle
-* Return: 0
-*/
-int main(void)
-{
-printf("with proper grammar, but the outcome is a piece of art,\n");
+                                                                                                                                                       
+
+/**                                                                                                                                                    
+
+* main - Entry point                                                                                                                                   
+
+*                                                                                                                                                      
+
+* Return: Always 0 (Success)                                                                                                                           
+
+*/                                                                                                                                                     
+
+int main(void)                                                                                                                                         
+
+{                                                                                                                                                      
+
+int a;                                                                                                                                                 
+
+long int b;                                                                                                                                            
+
+long long int c;                                                                                                                                       
+
+char d;                                                                                                                                                
+
+float f;                                                                                                                                               
+
+                                                                                                                                                       
+
+printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));                                                                                     
+
+printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));                                                                                     
+
+printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));                                                                                 
+
+printf("size of a long long int: %ln byte(s)\n", (unsigned long)sizeof(d));
+
+printf("size of a float: %in byte(s)\n", (unsigned long)sizeof(f));
+
 return (0);
+
 }
