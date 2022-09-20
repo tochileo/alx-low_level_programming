@@ -1,16 +1,40 @@
-#include "main.h'
+#include "main.h"
 
 /**
- * swap_int - a function that swaps the values of two integers
- * @a: input 1
- * @b: input 2
- * Return: integers
+ * _atoi - Convert a string to an integer.
+ * @s: The pointer to convert
+ *
+ * Return: A integer
  */
-void swap_int(int *a, int *b)
+int _atoi(char *s)
 {
-	int n;
+	int c = 0;
+	unsigned int ni = 0;
+	int min = 1;
+	int isi = 0;
 
-	n = *a;
-	*a = *b;
-	*b = n;
+	while (s[c])
+	{
+		if (s[c] == 45)
+		{
+			min *= -1;
+		}
+
+		while (s[c] >= 48 && s[c] <= 57)
+		{
+			isi = 1;
+			ni = (ni * 10) + (s[c] - '0');
+			c++;
+		}
+
+		if (isi == 1)
+		{
+			break;
+		}
+
+		c++;
+	}
+
+	ni *= min;
+	return (ni);
 }
